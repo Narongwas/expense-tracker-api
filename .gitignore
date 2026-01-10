@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+typings/
+
+# Compilation outputs
+# Adjust these paths based on your tsconfig.json "outDir"
+/dist
+/build
+/lib
+/*.js        # Ignore all compiled JS files in the root (if source is .ts)
+/*.js.map   # Ignore all source maps in the root
+
+# Optional: if you don't want to commit individual js files next to ts files
+# **/*.js
+# **/*.js.map
+
+# IDE and OS files
+.vscode/    # VS Code specific files (optional, depends on project standards)
+.idea/      # IntelliJ IDEA specific files
+.DS_Store   # macOS specific files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+
+# Testing and coverage
+/coverage
