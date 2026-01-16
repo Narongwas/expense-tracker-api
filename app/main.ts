@@ -1,7 +1,7 @@
 import express from "express";
 import type { Request, Response } from "express";
-import connectDB from "./db/db";
-import authRouter from "./router/authRouter";
+import connectDB from "../db/db";
+import authRouter from "../router/authRouter";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
